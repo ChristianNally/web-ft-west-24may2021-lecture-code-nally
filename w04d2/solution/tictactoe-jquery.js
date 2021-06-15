@@ -1,9 +1,9 @@
 $(document).ready(function(){  
 
-  function checkForVictory(clickedDOMElement){
-    const currentPlayer = $('#nextPlayer').html();
+  function checkForVictory(newSquare){
+    const currentPlayer = $('#currentPlayer').html();
     let rowWin = true;
-    $(clickedDOMElement).siblings().each(function(index){
+    $(newSquare).siblings().each(function(index){
       if (  !$(this).hasClass(currentPlayer)   ) {
         rowWin = false;
       }
@@ -11,7 +11,7 @@ $(document).ready(function(){
 
     let columnWin = true; // this is fragile state
     // only need to check the column this new square is in
-    let columnNum = $(clickedDOMElement).index() + 1;
+    let columnNum = $(newSquare).index() + 1;
     console.log(`columnNum:${columnNum}`);
 
     // the next jquery selector returns all three rows, so 
@@ -36,21 +36,21 @@ $(document).ready(function(){
   $('td').on('click',function(event){
 
     // Set the square to this player's symbol
-    const nextPlayer = $('#nextPlayer').html();
-    $(this).addClass(nextPlayer);
+    const currentPlayer = $('#currentPlayer').html();
+    $(this).addClass(currentPlayer);
 
     // Is there a winner yet?
     if (checkForVictory(this)) {
       // someone has won!
-      $('h2').html('<a href="">Play Again.</a>');
+      $('h2').html(`${currentPlayer} won! <a href="">Play Again.</a>`);
       $('td').off('click');
     } else {
       $(this).off('click');
       // Toggle which player clicks next
-      if ('X' === nextPlayer){
-        $('#nextPlayer').html('O');
+      if ('X' === currentPlayer){
+        $('#currentPlayer').html('O');
       } else {
-        $('#nextPlayer').html('X');
+        $('#currentPlayer').html('X');
       }
     }
 
