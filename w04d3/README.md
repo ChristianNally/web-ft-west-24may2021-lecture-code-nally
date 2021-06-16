@@ -47,10 +47,17 @@ Using AJAX you lose:
 
 ## Cross-Origin Resource Sharing (CORS)
 
+Cross Origin Resource Sharing (CORS) is a policy that some APIs use to prevent vulnerabilities to certain kinds of hacking.
+
 - For security reasons, browsers restrict cross-origin HTTP requests initiated from scripts.
 - Ajax requests follow the same-origin policy.
 - A web application using those APIs can only request resources from the same origin the application was loaded from unless the response from other origins includes the right CORS headers.
 - [CORS on Mozilla](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
+
+For a development deployment only, you might choose to install a browser extension that disables your own browser from checking an API's CORS policy, or you might send your API requests via a proxy that does something similar.
+
+See https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS and 
+https://medium.com/@dtkatz/3-ways-to-fix-the-cors-error-and-how-access-control-allow-origin-works-d97d55946d9
 
 
 ## References
