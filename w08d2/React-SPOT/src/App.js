@@ -7,6 +7,8 @@ import axios from 'axios';
 import ObjectivesSearchFrom from "./Components/ObjectivesSearchForm";
 import ObjectivesList from "./Components/ObjectivesList";
 import ObjectiveDetail from "./Components/ObjectiveDetail";
+import Parent from './Components/contextExample/Parent';
+
 
 function App() {
   console.log("App function executed.");
