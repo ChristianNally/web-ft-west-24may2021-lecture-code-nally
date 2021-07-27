@@ -54,7 +54,7 @@ We can leverage that Event Loop to simplify keeping track of when updates to our
 
 # [demo]
 
-This demo code is included in YOUR cohort's repository of my instructors code, under the new 'Modeling' subdirectory. If you would like to run the code on your system, you may have success by just doing 'git pull' in your clone of that repository, cd into the Modeling directory and run the following:
+This demo code is included in YOUR cohort's repository of my instructor's code, under the new 'Modeling' subdirectory. If you would like to run the code on your system, you may have success by just doing 'git pull' in your clone of that repository, cd into the Modeling directory and run the following:
 
 1. npm install
 1. node index.js
