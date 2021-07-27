@@ -36,11 +36,28 @@ We can leverage that Event Loop to simplify keeping track of when updates to our
 
 # [code review]
 
+[] some fixed constants
+[] A javascript Class for 'Planets'
+[] jquery for DOM manipulation
+[] use the tools that you have available... this demo is in
+1. HTML
+1. CSS
+1. Front-end Javascript, including jQuery
 
+## Our equations
+F = M * A (Newton's Law)
+F = G * Msun * Mplanet / R^2
+(where R is the distance from the Sun to the Planet, in pixels ;-) )
+DeltaV = A * DeltaT
+DeltaX = V * DeltaT
 
 # [demo]
 
-http://localhost:3000
+This demo code is included in YOUR cohort's repository of my instructors code, under the new 'Modeling' subdirectory. If you would like to run the code on your system, you may have success by just doing 'git pull' in your clone of that repository, cd into the Modeling directory and run the following:
+
+1. npm install
+1. node index.js
+1. http://localhost:3000
 
 # Q: How much does a cow weigh? A: Start with a Spherical Cow.
 
