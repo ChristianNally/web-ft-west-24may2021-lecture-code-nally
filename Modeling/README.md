@@ -36,10 +36,10 @@ We can leverage that Event Loop to simplify keeping track of when updates to our
 
 # [code review]
 
-[] some fixed constants
-[] A javascript Class for 'Planets'
-[] jquery for DOM manipulation
-[] use the tools that you have available... this demo is in
+[ ] some fixed constants
+[ ] A javascript Class for 'Planets'
+[ ] jquery for DOM manipulation
+[ ] use the tools that you have available... this demo is in
 1. HTML
 1. CSS
 1. Front-end Javascript, including jQuery
