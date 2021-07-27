@@ -17,7 +17,7 @@ The things you have learned in this bootcamp are, without exaggeration, gateways
 
 Computers are good at a few things:
 
-1. repetative tasks
+1. repetitive tasks
 1. storing and retrieving data
 1. performing calculations quickly
 1. creating digital graphical displays that represent data
