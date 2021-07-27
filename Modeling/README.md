@@ -36,20 +36,21 @@ We can leverage that Event Loop to simplify keeping track of when updates to our
 
 # [code review]
 
-[ ] some fixed constants
-[ ] A javascript Class for 'Planets'
-[ ] jquery for DOM manipulation
-[ ] use the tools that you have available... this demo is in
+- [ ] some fixed constants
+- [ ] A javascript Class for 'Planets'
+- [ ] jquery for DOM manipulation
+- [ ] use the tools that you have available... this demo is in
+
 1. HTML
 1. CSS
 1. Front-end Javascript, including jQuery
 
 ## Our equations
-F = M * A (Newton's Law)
-F = G * Msun * Mplanet / R^2
-(where R is the distance from the Sun to the Planet, in pixels ;-) )
-DeltaV = A * DeltaT
-DeltaX = V * DeltaT
+1. F = M * A (Newton's Law)
+1. F = G * Msun * Mplanet / R^2
+1. (where R is the distance from the Sun to the Planet, in pixels ;-) )
+1. DeltaV = A * DeltaT
+1. DeltaX = V * DeltaT
 
 # [demo]
 
