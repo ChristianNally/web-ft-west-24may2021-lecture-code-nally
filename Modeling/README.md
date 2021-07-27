@@ -1,4 +1,5 @@
-# Physics, Computers and Math (Oh My!)
+# The Javascript Event Loop as a tool for Creating Simulations
+## Physics, Computers and Math (Oh My!)
 
 Today, I'm here to deliver a pitch, an ask, a request, a hope, ... that as you continue your journey into computing, that you'll keep an open mind, a sharp eye out, for all of the consequences of the power that these tools give you.
 
